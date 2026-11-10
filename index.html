@@ -1,0 +1,437 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disaster Preparedness Guide</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="app-container">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div class="brand">
+            <div class="brand-icon">🛡️</div>
+            <div>
+                <h2>ReadySafe</h2>
+                <span>Disaster Preparedness</span>
+            </div>
+        </div>
+
+        <div class="nav-label">MAIN MENU</div>
+
+        <nav class="navigation">
+            <button class="nav-btn active" data-tab="home">
+                <span>⌂</span> Overview
+            </button>
+
+            <button class="nav-btn" data-tab="before">
+                <span>◷</span> Before Disaster
+            </button>
+
+            <button class="nav-btn" data-tab="during">
+                <span>⚠</span> During Disaster
+            </button>
+
+            <button class="nav-btn" data-tab="after">
+                <span>✓</span> After Disaster
+            </button>
+
+            <button class="nav-btn" data-tab="kit">
+                <span>🎒</span> Emergency Kit
+            </button>
+
+            <button class="nav-btn" data-tab="quiz">
+                <span>✎</span> Knowledge Quiz
+            </button>
+        </nav>
+
+        <div class="sidebar-bottom">
+            <div class="safety-card">
+                <span class="safety-icon">💡</span>
+                <h4>Stay Prepared!</h4>
+                <p>Being prepared today can save lives tomorrow.</p>
+            </div>
+
+            <p class="sidebar-footer">ReadySafe © 2026</p>
+        </div>
+
+    </aside>
+
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+
+        <header class="topbar">
+            <div>
+                <p class="top-subtitle">DISASTER AWARENESS PORTAL</p>
+                <h2>Disaster Preparedness Guide</h2>
+            </div>
+
+            <div class="top-status">
+                <span class="status-dot"></span>
+                Stay Alert. Stay Safe.
+            </div>
+        </header>
+
+
+        <!-- HOME -->
+        <section id="home" class="tab active">
+
+            <div class="hero">
+                <div class="hero-content">
+                    <span class="hero-tag">YOUR SAFETY STARTS HERE</span>
+
+                    <h1>Stay Ready.<br>Stay Safe. Save Lives.</h1>
+
+                    <p>
+                        Disasters can happen anytime. Learn how to prepare,
+                        protect yourself, and help your family during emergencies.
+                    </p>
+
+                    <button class="hero-button" data-tab="before">
+                        Start Preparing →
+                    </button>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="hero-circle">🛡️</div>
+                    <div class="hero-caption">
+                        <strong>Preparedness is Protection</strong>
+                        <span>Know what to do. When it matters most.</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="section-heading">
+                <div>
+                    <p class="section-label">KNOW THE RISKS</p>
+                    <h2>Common Natural & Man-Made Disasters</h2>
+                    <p>Understand the dangers and learn how to respond.</p>
+                </div>
+            </div>
+
+
+            <div class="cards">
+
+                <div class="card disaster-card typhoon">
+                    <div class="card-icon">🌪️</div>
+                    <span class="card-category">WEATHER</span>
+                    <h3>Typhoon</h3>
+                    <p>Strong winds and heavy rainfall can cause flooding and property damage.</p>
+                    <button data-tab="during">Learn Safety Tips →</button>
+                </div>
+
+                <div class="card disaster-card earthquake">
+                    <div class="card-icon">🌍</div>
+                    <span class="card-category">GEOLOGICAL</span>
+                    <h3>Earthquake</h3>
+                    <p>Ground shaking can damage buildings. Remember: Drop, Cover, and Hold On.</p>
+                    <button data-tab="during">Learn Safety Tips →</button>
+                </div>
+
+                <div class="card disaster-card flood">
+                    <div class="card-icon">🌊</div>
+                    <span class="card-category">WATER-RELATED</span>
+                    <h3>Flood</h3>
+                    <p>Rising water can be dangerous. Move to higher ground and avoid floodwater.</p>
+                    <button data-tab="during">Learn Safety Tips →</button>
+                </div>
+
+                <div class="card disaster-card fire">
+                    <div class="card-icon">🔥</div>
+                    <span class="card-category">MAN-MADE</span>
+                    <h3>Fire</h3>
+                    <p>Fire spreads quickly. Know your exits and evacuate immediately.</p>
+                    <button data-tab="during">Learn Safety Tips →</button>
+                </div>
+
+            </div>
+
+
+            <div class="bottom-banner">
+                <div>
+                    <span>📢 IMPORTANT REMINDER</span>
+                    <h3>Preparation is everyone's responsibility.</h3>
+                    <p>Make an emergency plan and share it with your family.</p>
+                </div>
+                <div class="banner-icon">🏠</div>
+            </div>
+
+        </section>
+
+
+        <!-- BEFORE -->
+        <section id="before" class="tab">
+
+            <div class="page-heading">
+                <span class="section-label">PREPARE AHEAD</span>
+                <h1>Before a Disaster</h1>
+                <p>Preparation can reduce risks and help protect lives.</p>
+            </div>
+
+            <div class="info-banner blue-banner">
+                <span>📋</span>
+                <div>
+                    <strong>Be prepared before an emergency happens.</strong>
+                    <p>Take time to prepare your home, family, and emergency supplies.</p>
+                </div>
+            </div>
+
+            <div class="tips-grid">
+
+                <div class="tip-card">
+                    <span>🎒</span>
+                    <h3>Prepare an Emergency Kit</h3>
+                    <p>Prepare food, water, medicine, flashlight, batteries, and other essential supplies for at least three days.</p>
+                </div>
+
+                <div class="tip-card">
+                    <span>📍</span>
+                    <h3>Know Evacuation Routes</h3>
+                    <p>Identify the nearest evacuation centers and safe routes in your community.</p>
+                </div>
+
+                <div class="tip-card">
+                    <span>🏠</span>
+                    <h3>Secure Your Home</h3>
+                    <p>Secure heavy furniture, windows, and objects that may fall during an earthquake or strong winds.</p>
+                </div>
+
+                <div class="tip-card">
+                    <span>📄</span>
+                    <h3>Protect Important Documents</h3>
+                    <p>Keep identification cards, certificates, and important documents in waterproof packaging.</p>
+                </div>
+
+                <div class="tip-card">
+                    <span>👨‍👩‍👧</span>
+                    <h3>Create a Family Plan</h3>
+                    <p>Agree on emergency contacts, meeting places, and communication methods.</p>
+                </div>
+
+                <div class="tip-card">
+                    <span>📱</span>
+                    <h3>Monitor Weather Updates</h3>
+                    <p>Follow official weather advisories and emergency announcements.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- DURING -->
+        <section id="during" class="tab">
+
+            <div class="page-heading">
+                <span class="section-label">ACT IMMEDIATELY</span>
+                <h1>During a Disaster</h1>
+                <p>Your actions during an emergency can save lives.</p>
+            </div>
+
+            <div class="info-banner orange-banner">
+                <span>⚠️</span>
+                <div>
+                    <strong>Stay calm and follow official instructions.</strong>
+                    <p>Prioritize your safety and the safety of the people around you.</p>
+                </div>
+            </div>
+
+            <div class="tips-grid">
+
+                <div class="tip-card">
+                    <span>🧘</span>
+                    <h3>Stay Calm</h3>
+                    <p>Avoid panic. Listen carefully to authorities and follow emergency instructions.</p>
+                </div>
+
+                <div class="tip-card">
+                    <span>🌍</span>
+                    <h3>Earthquake Safety</h3>
+                    <p>Drop, Cover, and Hold On. Protect your head and stay away from windows.</p>
+                </div>
+
+                <div class="tip-card">
+                    <span>🌪️</span>
+                    <h3>Typhoon Safety</h3>
+                    <p>Stay indoors and away from windows. Evacuate when authorities instruct you to do so.</p>
+                </div>
+
+                <div class="tip-card">
+                    <span>🌊</span>
+                    <h3>Flood Safety</h3>
+                    <p>Move to higher ground. Never walk, swim, or drive through floodwater.</p>
+                </div>
+
+                <div class="tip-card">
+                    <span>🔥</span>
+                    <h3>Fire Safety</h3>
+                    <p>Crawl low under smoke, cover your nose and mouth, and use the nearest safe exit.</p>
+                </div>
+
+                <div class="tip-card">
+                    <span>🚪</span>
+                    <h3>Evacuate Safely</h3>
+                    <p>Use stairs instead of elevators and follow designated evacuation routes.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- AFTER -->
+        <section id="after" class="tab">
+
+            <div class="page-heading">
+                <span class="section-label">RECOVERY & SAFETY</span>
+                <h1>After a Disaster</h1>
+                <p>Recovery begins by ensuring everyone is safe.</p>
+            </div>
+
+            <div class="info-banner green-banner">
+                <span>💚</span>
+                <div>
+                    <strong>Safety does not end when the disaster is over.</strong>
+                    <p>Continue following safety precautions while recovering.</p>
+                </div>
+            </div>
+
+            <div class="tips-grid">
+
+                <div class="tip-card">
+                    <span>🩹</span>
+                    <h3>Check for Injuries</h3>
+                    <p>Check yourself and others for injuries. Give first aid if you are trained to do so.</p>
+                </div>
+
+                <div class="tip-card">
+                    <span>🏚️</span>
+                    <h3>Inspect Your Home</h3>
+                    <p>Do not enter damaged buildings until authorities confirm they are safe.</p>
+                </div>
+
+                <div class="tip-card">
+                    <span>💧</span>
+                    <h3>Ensure Safe Drinking Water</h3>
+                    <p>Use safe bottled or treated water. Follow public health advisories.</p>
+                </div>
+
+                <div class="tip-card">
+                    <span>⚡</span>
+                    <h3>Avoid Electrical Hazards</h3>
+                    <p>Stay away from fallen power lines and report electrical hazards immediately.</p>
+                </div>
+
+                <div class="tip-card">
+                    <span>📻</span>
+                    <h3>Listen to Authorities</h3>
+                    <p>Monitor official updates about relief operations, evacuation, and recovery.</p>
+                </div>
+
+                <div class="tip-card">
+                    <span>🤝</span>
+                    <h3>Help Your Community</h3>
+                    <p>Help neighbors, especially children, elderly people, and persons with disabilities.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- EMERGENCY KIT -->
+        <section id="kit" class="tab">
+
+            <div class="page-heading">
+                <span class="section-label">EMERGENCY SUPPLIES</span>
+                <h1>Emergency Kit Checklist</h1>
+                <p>Prepare essential supplies that your family may need during emergencies.</p>
+            </div>
+
+            <div class="kit-container">
+
+                <div class="kit-header">
+                    <div>
+                        <span>🎒</span>
+                        <h2>Your Emergency Backpack</h2>
+                        <p>Check the items as you prepare them.</p>
+                    </div>
+                </div>
+
+                <div id="kitList"></div>
+
+                <div class="progress-container">
+                    <p>Preparation Progress</p>
+                    <div class="progress-track">
+                        <div id="kitProgressBar"></div>
+                    </div>
+                    <p id="kitProgress">0% Completed</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- QUIZ -->
+        <section id="quiz" class="tab">
+
+            <div class="page-heading">
+                <span class="section-label">TEST YOUR KNOWLEDGE</span>
+                <h1>Disaster Preparedness Quiz</h1>
+                <p>Test what you have learned about disaster preparedness.</p>
+            </div>
+
+            <div class="quiz-container">
+
+                <div class="quiz-top">
+                    <div>
+                        <span class="quiz-label">QUIZ DIFFICULTY</span>
+                        <h3>Choose Your Level</h3>
+                    </div>
+
+                    <select id="quizLevel">
+                        <option value="easy">Easy</option>
+                        <option value="medium">Medium</option>
+                        <option value="hard">Hard</option>
+                    </select>
+                </div>
+
+                <div id="quizArea"></div>
+
+                <div class="quiz-actions">
+                    <button id="nextQ" class="primary-btn">Next Question →</button>
+                    <button id="resetQuiz" class="secondary-btn">Reset Quiz</button>
+                </div>
+
+                <div id="quizScore"></div>
+
+            </div>
+
+        </section>
+
+
+        <footer class="main-footer">
+            <p>ReadySafe – Disaster Preparedness Guide</p>
+            <span>Be informed. Be prepared. Be safe.</span>
+        </footer>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
